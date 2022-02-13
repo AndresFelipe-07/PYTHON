@@ -1,3 +1,22 @@
+# RESOLVER EL PROBLEMA EN EL QUE PIDE QUE AL SER IGUAL EL VALOR 18, 21 O AL MENOS 100 RETORNE TRUE DE LO CONTRARIO RETORNE FALSE
+# del special_birthday(age):
+#     return(
+#         age == 18 or
+#         age == 21 or 
+#         age >= 100 # el al menos quiere decir >=
+#     )
+
+#OTRA FORMAT
+def special_birthday(age):
+    if(age == 18):
+        return True # si edad es igual a 18 returnar True
+    if(age == 21):
+        return True # si edad es igual a 21 returnar True
+    if(age >= 100):
+        return True # si edad es igual al menos (>=) 100 returnar True
+    return False # de lo contrario returnar False
+
+
 #PROBLEMA DE PYTHON ONLINE
 def make_day_string(day):
     x = int(day)
