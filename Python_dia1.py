@@ -1,3 +1,14 @@
+# Como aprendiste, la función len te permite calcular la longitud de una cadena. También funciona en listas. Por ejemplo:
+#números = [1, 2, 3]
+#len(números) == 3
+#Escriba una función, is_short, que tome un solo parámetro llamado números. Si los números tienen una longitud de 3 o menos, is_short debería devolver True. De lo contrario, debería devolver False.
+
+
+#PARE HACER LO DE ARRIBA ES LO SIGUIENTE:
+def is_short(numbers):
+    return len(numbers) <= 3 # esto es panita
+
+
 # RESOLVER EL PROBLEMA EN EL QUE PIDE QUE AL SER IGUAL EL VALOR 18, 21 O AL MENOS 100 RETORNE TRUE DE LO CONTRARIO RETORNE FALSE
 # del special_birthday(age):
 #     return(
@@ -16,6 +27,11 @@ def special_birthday(age):
         return True # si edad es igual al menos (>=) 100 returnar True
     return False # de lo contrario returnar False
 
+print(special_birthday(18))
+print(special_birthday(21))
+print(special_birthday(100))
+print(special_birthday(1))
+
 
 #PROBLEMA DE PYTHON ONLINE
 def make_day_string(day):
@@ -24,6 +40,8 @@ def make_day_string(day):
     if (a == "it is day " + str(x) + " of the month"):
         return a
     return
+
+print(make_day_string(18))
 
 
 # un comentario
