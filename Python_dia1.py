@@ -1,3 +1,12 @@
+# HACER EN UNA FUNCIÓN QUE DEVUELVA UNA LISTA QUE AL DARLE UNA ENTRADA DEVUELVA SU RESPECTIVO DOMINIO
+def dominio(a):
+    result = []
+    for string in a:
+        domain = string + ".com"
+        result = result + [domain]
+    return result
+# ESTO HACE QUE AL MOMENTO DE DARLE UNA ENTRADA DEVOLVERA UNA SALIDA DE UNA LISTA Y A CADA INDICE SE LE AGREGA SU ".com", ESO ES TODO
+
 # Como aprendiste, la función len te permite calcular la longitud de una cadena. También funciona en listas. Por ejemplo:
 #números = [1, 2, 3]
 #len(números) == 3
