@@ -1,3 +1,13 @@
+#función continue  hace que la ser valido x función o código continua sin tomarlo en cuenta
+
+#EJEMPLO
+
+for i in [1,2,3]:
+    if (i == 2):
+        continue # como i sera igual a 2 en la segunda posición siendo esto true el número 2 no será tomado en cuenta
+    print(i)
+
+
 # HACER EN UNA FUNCIÓN QUE DEVUELVA UNA LISTA QUE AL DARLE UNA ENTRADA DEVUELVA SU RESPECTIVO DOMINIO
 def dominio(a):
     result = []
