@@ -1,3 +1,14 @@
+# OTRA FUNCIÓN QUE HACE ES CUANDO QUIERES QUE NO SUCEDA ALGO, PARA DECIR DE MANERA MÁS FÁCIL LO MISMO DE ABAJO
+numbers = [-1,-2,-4,5,6,3,2,12,124,12342,1254]# se quiere que solo se imprima los números naturales pero que no sean 
+#mayores a 100
+for i in numbers:# en un bucle for se hace esto
+    if(i < 0):# cuando i sea menor a 0 no se mostraran aquellos números
+        continue# no se muestran estos números
+    if(i > 100):# cuando i sea mayor a 100 no se mostraran estos números
+        continue#no se muestran estos números
+    print(i)# se imprime los números deseados
+
+
 #función continue  hace que la ser valido x función o código continua sin tomarlo en cuenta
 
 #EJEMPLO
